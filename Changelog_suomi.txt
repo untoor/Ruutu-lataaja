@@ -1,0 +1,28 @@
+**Ruutu-downloaderÆ© by untoor**
+
+HUOM!: Jos lataus j‰‰ jumiin tai keskeytyy, k‰ynnist‰ uudelleen jolloinka pit‰isi auttaa. Jos ei auta, ota yhteytt‰!
+
+Muutosloki:
+
+1.0.8:
+- korjattu bugi joka aiheutti komentokehotteen sulkeutumisen, kun osoiteriville kirjoitettiin satunnaisia kirjaimia, eik‰
+oikeaa videon osoitetta
+
+1.0.6:
+- lataus tapahtuu nyt uudessa komentoikkunassa, ‰l‰ panikoi jos ensin n‰ytt‰‰ pelkk‰‰ tyhj‰‰
+- temp-kansio (temp = satunnainen) poistuu kun lataus on valmis
+
+1.0.4:
+- html- ja xml-infot eiv‰t en‰‰ n‰y komentokehotteessa
+
+1.0.2 :
+- vaihdettu latauskansio oikeaksi, silti temp-kansio (temp = satunnainen) j‰‰ roikkumaan latauksen p‰‰tytty‰
+- pieni‰ muutoksia konepellin alle
+
+1.0.0 Ensimm‰inen julkaisu:
+- saattaa sis‰lt‰‰ bugeja
+- mahdollisuus ladata suoraan videon osoitteesta
+- tiedostomuoto on oletuksena .mp4, mahdollista vaihtaa jos halutaan
+
+Beta-testaus menossa:
+- latausn‰kym‰st‰ yksinkertaisemman n‰kˆinen jos tarvetta on (?)

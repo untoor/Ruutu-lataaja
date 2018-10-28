@@ -1,0 +1,27 @@
+**Ruutu-downloader®© by untoor**
+
+NOTE!: If download stucks or failed, restart it and that should be okay. If won't help, contact me!
+
+Changelog:
+
+1.0.8:
+- fixed bug that causes cmd-window to close when typing random letters instead the actual video address, on to the video address-url
+
+1.0.6:
+- download is now showed in new command window, don't panic if it shows blank at first
+- temp-folder now disappears after download is ready
+
+1.0.4:
+- html- and xml-infos are now hidden in command prompt
+
+1.0.2 :
+- changed destination folder as correct, still temp-folder hangs there
+- small changes under the hood
+
+1.0.0 First release:
+- may contain bugs
+- option to download directly from URL
+- file format is .mp4 by default, able to change it if wanted
+
+Beta-test ongoing:
+- adding simply download info if wanted (?)
