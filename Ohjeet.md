@@ -14,3 +14,6 @@ yksinkertaisemmin: paina Windows-painiketta, valitse käyttäjänimesi ja liitä
 - Latauksen päätyttyä komentokehote sulkeutuu itsestään ja lataamasi video sijaitsee samassa paikassa mihin kansio siirrettiin, eli "C:\Users\Käyttäjänimi\videon_nimi.mp4"
 
 FFmpeg on zip-paketin mukana mutta saat sen ladattua myös täältä jos se puuttuu:  <a href="https://ffmpeg.org/releases/ffmpeg-4.0.2.tar.bz2">FFmpeg</a> 
+
+
+<b><font size="8">Lataa paketti täältä:</font></b> <a href="https://github.com/untoor/Ruutu-lataaja/releases">Ruutu-lataaja</a>
