@@ -4,20 +4,20 @@ CHCP 1252 | PROMPT
 ECHO.
 
 REM ** Constant variables.
-REM ** Ruutu 1.0.8 **
+REM ** Ruutu 1.1.0 **
 SET "html_file=html.txt"
 SET "xml_file=xml.txt"
 SET "chunk_file=chunk.txt"
 SET "wget_log_file=wget.txt"
 SET "wget_retries=3"
 SET "random_temp_folder=temp%random%"
-SET "program_folder=Ruutu 1.0.8"
-SET "program_name=Ruutu-lataaja v1.0.8"
+SET "program_folder=Ruutu 1.1.0"
+SET "program_name=Ruutu-lataaja v1.1.0"
 SET "wget_options=--no-verbose --tries=%wget_retries% --append-output=%wget_log_file%
-SET "ffmpeg_options= --user-agent=^"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:62.0) Gecko/20100101 Firefox/62.0^""
+SET "ffmpeg_options= --user-agent=^"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0^""
 
 TITLE %program_name%
-
+:START
 REM ** Getting a special "carriage return" character to a variable.
 FOR /F %%a IN ('COPY /Z "%~dpf0" NUL') DO SET "CR=%%a"
 
@@ -36,7 +36,7 @@ IF %ERRORLEVEL% NEQ 0 (
 PUSHD "%random_temp_folder%"
 
 REM ** Ask user for the URL.
-:START
+
 SET /P "video_url=Videon osoite: "
 
 SET "user_input_validation="
@@ -122,7 +122,8 @@ IF "%base_url%" EQU "" (
 
 SETLOCAL ENABLEEXTENSIONS
 
-START /W "Ladataan videota... '%echo_line_string%'" "C:\Users\%USERNAME%\%program_folder%\ffmpeg.exe" -i "%base_url%" -v 0 -stats -c copy "C:\Users\%USERNAME%\%echo_line_string%.mp4"
+"C:\Users\%USERNAME%\%program_folder%\ffmpeg.exe" -i "%base_url%" -v quiet -progress - -y -c copy "C:\Users\%USERNAME%\%echo_line_string%.mp4"
+
 
 POPD 
 IF EXIST "html.txt" DEL "html.txt"
@@ -130,8 +131,20 @@ IF EXIST "xml.txt" DEL "xml.txt"
 IF EXIST "wget.txt" DEL "wget.txt"
 
 IF EXIST "%random_temp_folder%" RD "%random_temp_folder%" /S /Q
+@ECHO OFF
+ECHO.
+ECHO.
+SET /P "var=Haluatko ladata uuden videon? [K/E]: "
+IF /I "%var%"=="K" GOTO CLS
+IF /I "%var%"=="E" GOTO EXIT
+:CLS
+CLS
+ECHO.
+GOTO START
 
-
+:EXIT
 EXIT
+
+
 
 
