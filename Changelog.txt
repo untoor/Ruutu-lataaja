@@ -4,6 +4,9 @@ NOTE!: If download stucks or failed, restart it and that should be okay. If won'
 
 Changelog:
 
+1.1.2:
+- small changes
+
 1.1.0:
 - download-view changed back to original window, now showing bit clearly infos
 - added question after download ends, wanna start new download or not. If not, window closes.

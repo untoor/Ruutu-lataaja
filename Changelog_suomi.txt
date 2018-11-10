@@ -4,6 +4,9 @@ HUOM!: Jos lataus j‰‰ jumiin tai keskeytyy, k‰ynnist‰ uudelleen jolloinka pit‰is
 
 Muutosloki:
 
+1.1.2:
+- pieni‰ muutoksia
+
 1.1.0:
 - latausn‰kym‰ vaihdettu takaisin samaan ikkunaan, nyt aavistuksen selke‰mm‰ss‰ muodossa
 - lis‰tty kysymys latauksen loputtua, ett‰ aloitetaanko uusi lataus vai ei. Jos ei, niin ikkuna sulkeutuu.
