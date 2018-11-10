@@ -27,4 +27,4 @@ Installing guide:
 - Open and start program when windows asks it.
 - After opening, copy video-address and paste it to program, after that press Enter. If something went wrong, you see error message.
 - Give name to your video, don't use scandinavian vowels, after download is ready, you can change the name whatever you like. Then press Enter and  download starts.
-- After download is ready, there comes question that do you want to download new video or not. If not, window closes. Downloaded video hang same place were we moved Ruutu 1.0.8-folder, "C:\Users\USERNAME\video_name.mp4"
+- After download is ready, there comes question that do you want to download new video or not. If not, window closes. Downloaded video hang same place were we moved Ruutu X.X.X-folder, "C:\Users\USERNAME\video_name.mp4"
