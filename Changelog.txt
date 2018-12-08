@@ -4,6 +4,10 @@ NOTE!: If download stucks or failed, restart it and that should be okay. If won'
 
 Changelog:
 
+1.1.4:
+- deleted whole temp-folder-system
+- small changes
+
 1.1.2:
 - small changes
 

@@ -4,6 +4,10 @@ HUOM!: Jos lataus j‰‰ jumiin tai keskeytyy, k‰ynnist‰ uudelleen jolloinka pit‰is
 
 Muutosloki:
 
+1.1.4:
+- poistettu koko temp-kansio-systeemi
+- siivottu ja siistitty koodia
+
 1.1.2:
 - pieni‰ muutoksia
 
