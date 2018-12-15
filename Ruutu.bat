@@ -4,22 +4,24 @@ CHCP 1252 | PROMPT
 ECHO.
 
 REM ** Constant variables.
-REM ** Ruutu 1.1.4 **
+REM ** Ruutu 1.1.6 **
 SET "html_file=html.txt"
 SET "xml_file=xml.txt"
 SET "chunk_file=chunk.txt"
 SET "wget_log_file=wget.txt"
 SET "wget_retries=3"
-SET "program_folder=Ruutu 1.1.4"
-SET "program_name=Ruutu-lataaja v1.1.4"
+SET "log_folder=temp%random%"
+SET "program_folder=Ruutu 1.1.6"
+SET "program_name=Ruutu-lataaja v1.1.6"
 SET "wget_options=--no-verbose --tries=%wget_retries% --append-output=%wget_log_file%
-SET "ffmpeg_options= --user-agent=^"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:63.0) Gecko/20100101 Firefox/63.0^""
+SET "ffmpeg_options= --user-agent=^"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0^""
 
 TITLE %program_name%
 :START
 REM ** Getting a special "carriage return" character to a variable.
 FOR /F %%a IN ('COPY /Z "%~dpf0" NUL') DO SET "CR=%%a"
 
+MD "%log_folder%" 2>NUL
 
 IF %ERRORLEVEL% NEQ 0 (
 	REM ** Change console colors, light red text on black background.
@@ -31,6 +33,7 @@ IF %ERRORLEVEL% NEQ 0 (
 	EXIT
 )
 
+PUSHD "%log_folder%"
 
 REM ** Ask user for the URL.
 :URL
@@ -122,6 +125,9 @@ SETLOCAL ENABLEEXTENSIONS
 IF EXIST "html.txt" DEL "html.txt"
 IF EXIST "xml.txt" DEL "xml.txt"
 IF EXIST "wget.txt" DEL "wget.txt"
+
+POPD
+IF EXIST "%log_folder%" RD "%log_folder%" /S /Q
 
 TITLE Ladataan videota... " %echo_line_string% "
 "C:\Users\%USERNAME%\%program_folder%\ffmpeg.exe" -i "%base_url%" -v quiet -progress - -y -c copy "C:\Users\%USERNAME%\%echo_line_string%.mp4"
