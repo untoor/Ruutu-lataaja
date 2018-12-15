@@ -13,7 +13,7 @@ yksinkertaisemmin: paina Windows-painiketta, valitse käyttäjänimesi ja liitä
 - Anna videolle nimi, vältä ääkkösiä tässä vaiheessa, videon valmistuttua voit muokata virallisemman nimen. Sen jälkeen paina uudestaan Enter ja lataus alkaa. 
 - Latauksen päätyttyä ilmestyy kysely, haluatko aloittaa uuden latauksen vai ei. Jos valitset ei, ikkuna sulkeutuu. Lataamasi video sijaitsee samassa paikassa mihin kansio siirrettiin, eli "C:\Users\Käyttäjänimi\videon_nimi.mp4"
 
-FFmpeg on zip-paketin mukana mutta saat sen ladattua myös täältä jos se puuttuu:  <a href="https://ffmpeg.org/releases/ffmpeg-4.0.2.tar.bz2">FFmpeg</a> 
+FFmpeg on zip-paketin mukana mutta saat sen ladattua myös täältä jos se puuttuu:  <a href="https://ffmpeg.zeranoe.com/builds/">FFmpeg</a> 
 
 
 <b><font size="8">Lataa paketti:</font></b> <a href="https://github.com/untoor/Ruutu-lataaja/releases">Ruutu-lataaja</a>
