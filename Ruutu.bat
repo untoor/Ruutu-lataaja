@@ -4,17 +4,17 @@ CHCP 1252 | PROMPT
 ECHO.
 
 REM ** Constant variables.
-REM ** Ruutu 1.1.6 **
+REM ** Ruutu 1.1.8 **
 SET "html_file=html.txt"
 SET "xml_file=xml.txt"
 SET "chunk_file=chunk.txt"
 SET "wget_log_file=wget.txt"
 SET "wget_retries=3"
 SET "log_folder=temp%random%"
-SET "program_folder=Ruutu 1.1.6"
-SET "program_name=Ruutu-lataaja v1.1.6"
+SET "program_folder=Ruutu 1.1.8"
+SET "program_name=Ruutu-lataaja v1.1.8"
 SET "wget_options=--no-verbose --tries=%wget_retries% --append-output=%wget_log_file%
-SET "ffmpeg_options= --user-agent=^"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:64.0) Gecko/20100101 Firefox/64.0^""
+SET "ffmpeg_options= --user-agent=^"Mozilla/5.0 (Windows NT 6.1; Win64; x64; rv:65.0) Gecko/20100101 Firefox/65.0^""
 
 TITLE %program_name%
 :START
@@ -57,8 +57,8 @@ FOR /F "delims=0123456789" %%a IN ("%video_id%") DO SET "is_number=%%a"
 IF "%is_number%" EQU "" SET "user_input_validation=%user_input_validation%y"
 
 IF "%user_input_validation%" NEQ "yyy" (
-	ECHO. &ECHO HUOM! Osoitetta ei hyväksytty!
-	ECHO Tarkista osoite ja yritä uudelleen.
+	ECHO. &ECHO HUOM! Osoitetta ei tuettu!
+	ECHO Tarkista osoite ja kokeile uudelleen.
 	ECHO.
 	ECHO Esimerkki: https://www.ruutu.fi/video/1234567
 	ECHO.
@@ -85,7 +85,7 @@ REM ** Download the html file of the video.
 
 IF %ERRORLEVEL% NEQ 0 (
 	ECHO %echo_line_string%
-	ECHO. &ECHO HUOM! Videon html-osoitetta ei löytynyt!
+	ECHO. &ECHO HUOM! Videon html-osoitetta ei havaittu!
 	
 )
 
@@ -104,7 +104,7 @@ REM ** Download the xml file of the video.
 
 IF %ERRORLEVEL% NEQ 0 (
 	ECHO %echo_line_string%
-	ECHO. &ECHO HUOM! Videon xml-osoitetta ei löytynyt!
+	ECHO. &ECHO HUOM! Videon xml-osoitetta ei havaittu!
 	
 )
 
@@ -114,11 +114,14 @@ FOR /F "tokens=3 delims=<>" %%a IN ('FINDSTR /I "<AppleMediaFile>http://.*/playl
 REM ** Test if "baseurl" information was found.
 IF "%base_url%" EQU "" (
 
-	ECHO. &ECHO HUOM! Videon osoitetta ei löytynyt! Videota ei voi ladata.
+	ECHO. &ECHO HUOM! Videon osoitetta ei havaittu! Videota ei voi ladata.
+	ECHO.
+	ECHO Videossa saattaa olla DRM-suojaus aktiivinen. Kokeile toista videota.
 	ECHO.
 	ECHO.
-	IF NOT EXIST "%base_url%" GOTO START
+	IF NOT EXIST "%base_url%" GOTO URL
 )
+
 
 SETLOCAL ENABLEEXTENSIONS
 
