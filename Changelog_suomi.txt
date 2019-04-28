@@ -4,6 +4,9 @@ HUOM!: Jos lataus j‰‰ jumiin tai keskeytyy, k‰ynnist‰ uudelleen jolloinka pit‰is
 
 Muutosloki:
 
+1.2.0:
+- tuki Suplalle
+
 1.1.8:
 - lis‰tty info jos videossa on DRM-suojaus
 
