@@ -1,7 +1,9 @@
 # Ruutu-lataaja
 
 Ohjelman avulla saat ladattua mieleisesi videon Ruudusta, myös Ruutu+-videot. Videoformaatti on oletuksena mp4.
-Ohjelma toimii komentokehotteen kautta ja näin ollen myös videoiden latauskin.
+Ohjelma toimii komentokehotteen kautta ja näin ollen myös videoiden latauskin. 
+
+EDIT 2.3.2020!: Ruutu+ -videoita saa ladattua ainoastaan voimassa olevan Ruutu+ -tilauksen avulla.
 
 Supla on nyt myös tuettuna. Lataus toimii samalla tavalla kuin Ruudustakin, eli liitä podcastin osoite lataajaan, anna tiedostolle nimi ja lataus alkaa. Formaatti on podcasteille mp3.
 
