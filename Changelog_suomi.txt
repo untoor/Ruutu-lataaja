@@ -4,6 +4,12 @@ HUOM!: Jos lataus jää jumiin tai keskeytyy, käynnistä uudelleen jolloinka pitäis
 
 Muutosloki:
 
+1.2.4:
+- pieniä korjauksia
+
+1.2.2:
+- korjattu Ruudun sivuilla ilmenneet muutokset elokuvien osoitteisiin
+
 1.2.0:
 - tuki Suplalle
 
@@ -46,3 +52,5 @@ oikeaa videon osoitetta
 
 Beta-testaus menossa:
 - latausnäkymästä yksinkertaisemman näköinen jos tarvetta on (?)
+- selkeytetään tiedoston uuden version saantia, eli lisättäisiin koodiin päivityksen tarkistaja aina kun ohjelma avataan. Näin ollen pärjättäisiin jatkossa
+yhdellä ja samalla kansiolla.

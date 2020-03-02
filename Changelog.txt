@@ -4,6 +4,12 @@ NOTE!: If download stucks or failed, restart it and that should be okay. If won'
 
 Changelog:
 
+1.2.4:
+- small changes
+
+1.2.2:
+- fixed changes of movie addresses on Ruutu
+
 1.2.0:
 - now supporting Supla
 
