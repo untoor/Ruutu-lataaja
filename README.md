@@ -3,10 +3,10 @@
 Ohjelman avulla saat ladattua mieleisesi videon Ruudusta, myös Ruutu+-videot. Videoformaatti on oletuksena mp4.
 Ohjelma toimii komentokehotteen kautta ja näin ollen myös videoiden latauskin. 
 
-**EDIT 2.3.2020!:** Ruutu+ -videoita saa ladattua ainoastaan voimassa olevan Ruutu+ -tilauksen avulla.
+**EDIT 2.3.2020!:** Ruutu+ -videoita saa ladattua ainoastaan voimassa olevan Ruutu+ -tilauksen avulla.   
 **EDIT 1.3.2021:** Ruutu+ -videoissa tarvitaan henk.koht. token joka lisätään manuaalisesti koodiin, sitten lataukset lähtee. Pahoittelut niille joille jäänyt epäselväksi että vaikka olette kirjautuneena sivustolle, niin ei lataus toimikaan.
 
-Supla on nyt myös tuettuna. Lataus toimii samalla tavalla kuin Ruudustakin, eli liitä podcastin osoite lataajaan, anna tiedostolle nimi ja lataus alkaa. Formaatti on podcasteille mp3.
+Supla on nyt myös tuettuna. Lataus toimii samalla tavalla kuin Ruudustakin, eli liitä podcastin osoite lataajaan, anna tiedostolle nimi ja lataus alkaa. Formaatti on podcasteille mp3.  
 **EDIT 1.3.2021:** Äänikirjojen lataukseen on olemassa ohjelma, vaaditaan Supla+ -tunnus sekä hieman lähdekoodin tuntemista, lisätietoja yv:llä.
 
 Pienet asennusohjeet:
