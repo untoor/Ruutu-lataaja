@@ -4,6 +4,9 @@ HUOM!: Jos lataus jää jumiin tai keskeytyy, käynnistä uudelleen jolloinka pitäis
 
 Muutosloki:
 
+1.2.6:
+- korjattu bugi joka latasi vanhan videon kahdesti, vaikka olisi pitänyt tulla uuden kohdalla DRM-ilmoitus. Kiitos löytäjälle avusta!
+
 1.2.4:
 - pieniä korjauksia
 
@@ -52,5 +55,3 @@ oikeaa videon osoitetta
 
 Beta-testaus menossa:
 - latausnäkymästä yksinkertaisemman näköinen jos tarvetta on (?)
-- selkeytetään tiedoston uuden version saantia, eli lisättäisiin koodiin päivityksen tarkistaja aina kun ohjelma avataan. Näin ollen pärjättäisiin jatkossa
-yhdellä ja samalla kansiolla.
