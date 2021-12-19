@@ -4,6 +4,10 @@ NOTE!: If download stucks or failed, restart it and that should be okay. If won'
 
 Changelog:
 
+1.2.8:
+- small changes
+- updated info
+
 1.2.6:
 - fixed bug that downloads old video twice, as it should be shown DRM-error when adding new link. Thanks for him who founds it and helped!
 

@@ -4,6 +4,10 @@ HUOM!: Jos lataus jää jumiin tai keskeytyy, käynnistä uudelleen jolloinka pitäis
 
 Muutosloki:
 
+1.2.8:
+- pieniä korjauksia
+- päivitetty ohjeistusta
+
 1.2.6:
 - korjattu bugi joka latasi vanhan videon kahdesti, vaikka olisi pitänyt tulla uuden kohdalla DRM-ilmoitus. Kiitos löytäjälle avusta!
 
