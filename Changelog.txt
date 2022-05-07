@@ -4,6 +4,11 @@ NOTE!: If download stucks or failed, restart it and that should be okay. If won'
 
 Changelog:
 
+1.3.0:
+- now supporting Permanto (AlfaTV)
+- added question to start, which page you want to download videos. That which is selected, stays there by default, until you close the program. 
+  When starting program again, same question comes and you can choose another site. This can be change in future if users want it. 
+
 1.2.8:
 - small changes
 - updated info
