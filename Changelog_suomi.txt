@@ -4,6 +4,9 @@ HUOM!: Jos lataus jää jumiin tai keskeytyy, käynnistä uudelleen jolloinka pitäis
 
 Muutosloki:
 
+1.3.2:
+- korjattu oikea polku ohjelman toimintaan, jäi vahingossa testauspolku kummitteleen
+
 1.3.0:
 - tuki Permanto-sivustolle (AlfaTV), ohjeet infossa
 - lisätty ohjelman alkuun kysely kummasta sivustosta ladataan. Se kumpi valittu, on oletuksena käytössä koko aika, kunnes suljet ohjelman. 
