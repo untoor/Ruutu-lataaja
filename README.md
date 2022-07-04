@@ -19,10 +19,10 @@ yksinkertaisemmin: paina Windows-painiketta, valitse käyttäjänimesi ja liitä
 - Anna videolle nimi, vältä ääkkösiä tässä vaiheessa, videon valmistuttua voit muokata virallisemman nimen. Sen jälkeen paina uudestaan Enter ja lataus alkaa. 
 - Latauksen päätyttyä ilmestyy kysely, haluatko aloittaa uuden latauksen vai ei. Jos valitset ei, ikkuna sulkeutuu. Lataamasi video sijaitsee samassa paikassa mihin kansio siirrettiin, eli "C:\Users\Käyttäjänimi\videon_nimi.mp4"
 
-FFmpeg on zip-paketin mukana mutta saat sen ladattua myös täältä jos se puuttuu:  <a href="https://ffmpeg.zeranoe.com/builds/">FFmpeg</a> 
+FFmpeg on zip-paketin mukana mutta saat sen ladattua myös täältä jos se puuttuu:  [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases)
 
 
-<b><font size="8">Lataa paketti:</font></b> <a href="https://github.com/untoor/Ruutu-lataaja/releases">Ruutu-lataaja</a>
+<b><font size="8">Lataa paketti:</font></b> [Ruutu-lataaja](https://github.com/untoor/Ruutu-lataaja/releases)
 
 This program helps you to download videos from Ruutu. Videoformat is mp4 by default.
 
