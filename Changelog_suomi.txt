@@ -1,8 +1,17 @@
-**Ruutu-downloaderÆ© by untoor**
+**Ruutu-lataajaÆ© by untoor**
 
 HUOM!: Jos lataus j‰‰ jumiin tai keskeytyy, k‰ynnist‰ uudelleen jolloinka pit‰isi auttaa. Jos ei auta, ota yhteytt‰!
 
 Muutosloki:
+
+1.3.6:
+- poistettu host-listaus kansiosta (alkoi tallentaan yht‰kki‰)
+- poistettu Permannon tuki koska sivusto ei ole en‰‰ toiminnassa
+- lis‰tty erillinen tekstitiedosto johon token-osoite nyt syˆtet‰‰n, helpompi muokata jatkossa, tiedote infossa
+- p‰ivitetty ohjeistusta
+- korjattu ohjelman koodia jotta keskeytyneiss‰ latauksissa tai DRM-ilmoituksissa ei j‰‰ ylim. tiedostot ajeleen kansioon
+- kansio on nyt pelkistetty Ruutu ilman versiotietoa, johtuen uudesta tiedostosta, sek‰ n‰in ollen tulevaisuudessa 
+  ohjelmaan yritet‰‰n lis‰t‰ autom. p‰ivityksen tarkastaja kun ohjelma k‰ynnistyy
 
 1.3.4:
 - korjattu bugi joka antoi virheilmoitukset uusissa latauksissa
