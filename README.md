@@ -3,7 +3,14 @@
 Ohjelman avulla saat ladattua mieleisesi videon Ruudusta, myös Ruutu+-videot. Videoformaatti on oletuksena mp4.
 Ohjelma toimii komentokehotteen kautta ja näin ollen myös videoiden latauskin. 
 
-Ongelmat:  
+#
+**Jos haluat lähettää kiitoksesi ohjelmastani, onnistuu se Paypalin kautta. Kiitos jo ennakkoon!**   
+[Tästä linkistä lahjoitukseen](https://www.paypal.com/donate/?hosted_button_id=5SZTBHGG589J8)
+#
+
+<b><font size="8">Lataa paketti:</font></b> [Ruutu-lataaja](https://github.com/untoor/Ruutu-lataaja/releases)
+#
+Huomioitavaa:  
 **EDIT 2.3.2020!:** Ruutu+ -videoita saa ladattua ainoastaan voimassa olevan Ruutu+ -tilauksen avulla.   
 **EDIT 1.3.2021:** Ruutu+ -videoissa tarvitaan henk.koht. token.   
 **EDIT 19.1.2023:** Suplan podcastit eivät ole toimineet muutamaan kuukauteen johtuen osoitemuutoksista.
@@ -19,10 +26,7 @@ yksinkertaisemmin: paina Windows-painiketta, valitse käyttäjänimesi ja liitä
 - Latauksen päätyttyä ilmestyy kysely, haluatko aloittaa uuden latauksen vai ei. Jos valitset ei, ikkuna sulkeutuu. Lataamasi video sijaitsee samassa paikassa mihin kansio siirrettiin, eli "C:\Users\Käyttäjänimi\videon_nimi.mp4"
 
 FFmpeg on zip-paketin mukana mutta saat sen ladattua myös täältä jos se puuttuu:  [FFmpeg](https://github.com/BtbN/FFmpeg-Builds/releases)
-
-
-<b><font size="8">Lataa paketti:</font></b> [Ruutu-lataaja](https://github.com/untoor/Ruutu-lataaja/releases)
-
+#
 This program helps you to download videos from Ruutu. Videoformat is mp4 by default.
  
 Supla is supported still, but right now, it isn't working at all. There were massive changes for addresses.
