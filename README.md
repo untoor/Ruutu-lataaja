@@ -3,13 +3,10 @@
 Ohjelman avulla saat ladattua mieleisesi videon Ruudusta, myös Ruutu+-videot. Videoformaatti on oletuksena mp4.
 Ohjelma toimii komentokehotteen kautta ja näin ollen myös videoiden latauskin. 
 
+Ongelmat:  
 **EDIT 2.3.2020!:** Ruutu+ -videoita saa ladattua ainoastaan voimassa olevan Ruutu+ -tilauksen avulla.   
-**EDIT 1.3.2021:** Ruutu+ -videoissa tarvitaan henk.koht. token joka lisätään manuaalisesti koodiin, sitten lataukset lähtee. Pahoittelut niille joille jäänyt epäselväksi että vaikka olette kirjautuneena sivustolle, niin ei lataus toimikaan.
-
-Supla on nyt myös tuettuna. Lataus toimii samalla tavalla kuin Ruudustakin, eli liitä podcastin osoite lataajaan, anna tiedostolle nimi ja lataus alkaa. Formaatti on podcasteille mp3.     
+**EDIT 1.3.2021:** Ruutu+ -videoissa tarvitaan henk.koht. token.   
 **EDIT 19.1.2023:** Suplan podcastit eivät ole toimineet muutamaan kuukauteen johtuen osoitemuutoksista.
-
-**EDIT 1.3.2021:** Äänikirjojen lataukseen on olemassa ohjelma, vaaditaan Supla+ -tunnus sekä hieman lähdekoodin tuntemista, lisätietoja yv:llä.
 
 Pienet asennusohjeet:
 
@@ -27,8 +24,8 @@ FFmpeg on zip-paketin mukana mutta saat sen ladattua myös täältä jos se puut
 <b><font size="8">Lataa paketti:</font></b> [Ruutu-lataaja](https://github.com/untoor/Ruutu-lataaja/releases)
 
 This program helps you to download videos from Ruutu. Videoformat is mp4 by default.
-
-Supla is now supported. Download happens same way as Ruutu. Add the podcast address to address-field, give name for the file and podcast is starting to download. Format is mp3.
+ 
+Supla is supported still, but right now, it isn't working at all. There were massive changes for addresses.
 
 Installing guide:
 
