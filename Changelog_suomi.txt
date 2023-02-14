@@ -4,6 +4,12 @@ HUOM!: Jos lataus j‰‰ jumiin tai keskeytyy, k‰ynnist‰ uudelleen jolloinka pit‰is
 
 Muutosloki:
 
+1.3.8:
+- lis‰tty p‰ivityksen tarkastaja ohjelman alkuun
+- muutettu temp-kansion toimintaa niin ett‰ varmasti nyt poistuu
+- pieni muutos ulkoasuun
+- p‰ivitetty ohjeistusta
+
 1.3.6:
 - poistettu host-listaus kansiosta (alkoi tallentaan yht‰kki‰)
 - poistettu Permannon tuki koska sivusto ei ole en‰‰ toiminnassa
@@ -16,7 +22,7 @@ Muutosloki:
 1.3.4:
 - korjattu bugi joka antoi virheilmoitukset uusissa latauksissa
 - p‰ivitetty wget ja ffmpeg viimeisimpiin versioihin
-- p‰ivitetty infoa
+- p‰ivitetty ohjeistusta
 
 1.3.2:
 - korjattu oikea polku ohjelman toimintaan, j‰i vahingossa testauspolku kummitteleen
