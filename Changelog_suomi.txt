@@ -4,6 +4,10 @@ HUOM!: Jos lataus j‰‰ jumiin tai keskeytyy, k‰ynnist‰ uudelleen jolloinka pit‰is
 
 Muutosloki:
 
+1.4.0:
+- pieni‰ korjauksia
+- p‰ivitetty ohjeistusta jossa kerrottu miten jatkossa edet‰‰n
+
 1.3.8:
 - lis‰tty p‰ivityksen tarkastaja ohjelman alkuun
 - muutettu temp-kansion toimintaa niin ett‰ varmasti nyt poistuu

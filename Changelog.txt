@@ -4,9 +4,13 @@ NOTE!: If download stucks or failed, restart it and that should be okay. If won'
 
 Changelog:
 
+1.4.0:
+- small changes
+- updated info where is more info for the future
+
 1.3.8:
 - added update checker when starting program
-- changed temp-folder logic that it will now disappear fully
+- changed temp-folder logic that it will now disappears fully
 - little changes to appearance
 - updated info
 
