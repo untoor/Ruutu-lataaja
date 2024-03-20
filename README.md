@@ -12,7 +12,6 @@ Ohjelma toimii komentokehotteen kautta ja näin ollen myös videoiden latauskin.
 #
 Huomioitavaa:  
 **EDIT 2.3.2020!:** Ruutu+ -videoita saa ladattua ainoastaan voimassa olevan Ruutu+ -tilauksen avulla.   
-**EDIT 1.3.2021:** Ruutu+ -videoissa tarvitaan henk.koht. token.   
 **EDIT 19.1.2023:** Suplan podcastit eivät ole toimineet muutamaan kuukauteen johtuen osoitemuutoksista.
 
 Pienet asennusohjeet:
