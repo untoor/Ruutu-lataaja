@@ -4,6 +4,12 @@ NOTE!: If download stucks or failed, restart it and that should be okay. If won'
 
 Changelog:
 
+1.4.2:
+- support for Permanto is back
+- fixes to code
+- updated info
+- updated wget and ffmpeg to latest releases
+
 1.4.0:
 - small changes
 - updated info where is more info for the future

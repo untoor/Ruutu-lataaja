@@ -4,6 +4,12 @@ HUOM!: Jos lataus j‰‰ jumiin tai keskeytyy, k‰ynnist‰ uudelleen jolloinka pit‰is
 
 Muutosloki:
 
+1.4.2:
+- Permannon tuki tullut takaisin, ohjeet infossa
+- korjauksia ohjelmaan
+- p‰ivitetty ohjeistusta
+- p‰ivitetty wget ja ffmpeg viimeisimpiin versioihin
+
 1.4.0:
 - pieni‰ korjauksia
 - p‰ivitetty ohjeistusta jossa kerrottu miten jatkossa edet‰‰n
