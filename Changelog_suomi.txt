@@ -4,6 +4,9 @@ HUOM!: Jos lataus j‰‰ jumiin tai keskeytyy, k‰ynnist‰ uudelleen jolloinka pit‰is
 
 Muutosloki:
 
+1.4.4:
+- korjattu uusi versio-ilmoitukseen johtanut virhe vaikkei uutta versiota ollut ilmestynyt. P‰ivityksen tarkistaja toimii taas normaalisti.
+
 1.4.2:
 - Permannon tuki tullut takaisin, ohjeet infossa
 - korjauksia ohjelmaan

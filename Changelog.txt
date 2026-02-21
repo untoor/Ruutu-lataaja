@@ -4,6 +4,9 @@ NOTE!: If download stucks or failed, restart it and that should be okay. If won'
 
 Changelog:
 
+1.4.4:
+- fixed new version-prompt error even if there wasnt new version available. Update checker works again properly.
+
 1.4.2:
 - support for Permanto is back
 - fixes to code
