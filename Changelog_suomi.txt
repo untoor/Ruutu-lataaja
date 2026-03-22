@@ -4,8 +4,15 @@ HUOM!: Jos lataus j‰‰ jumiin tai keskeytyy, k‰ynnist‰ uudelleen jolloinka pit‰is
 
 Muutosloki:
 
-1.4.4:
-- korjattu uusi versio-ilmoitukseen johtanut virhe vaikkei uutta versiota ollut ilmestynyt. P‰ivityksen tarkistaja toimii taas normaalisti.
+1.4.6:
+- Ruutu ja Permanto toimivat taas normaalisti
+- p‰ivitetty ohjelman ulkoasua
+- lis‰tty palvelukohtaiset kansiot
+- yksinkertaistettu latausn‰kym‰ parilla lis‰tiedolla
+- p‰ivitetty ohjeistusta
+
+1.4.4: 
+- korjattu uusi versio-virheilmoitukseen johtanut ongelma
 
 1.4.2:
 - Permannon tuki tullut takaisin, ohjeet infossa

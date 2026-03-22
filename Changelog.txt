@@ -1,8 +1,15 @@
-**Ruutu-downloader®© by untoor**
+**Ruutu-lataaja®© by untoor**
 
 NOTE!: If download stucks or failed, restart it and that should be okay. If won't help, contact me!
 
 Changelog:
+
+1.4.6:
+- Ruutu and Permanto are now working properly
+- updated program UI
+- added service-specific folders
+- simplified download view with extra infos
+- updated info
 
 1.4.4:
 - fixed new version-prompt error even if there wasnt new version available. Update checker works again properly.
