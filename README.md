@@ -3,17 +3,11 @@
 Ohjelman avulla saat ladattua mieleisesi videon Ruudusta, myös Ruutu+-videot. Videoformaatti on oletuksena mp4.
 Ohjelma toimii komentokehotteen kautta ja näin ollen myös videoiden latauskin. 
 
-#
-**Jos haluat lähettää kiitoksesi ohjelmastani, onnistuu se Paypalin kautta. Kiitos jo ennakkoon!**   
-[Tästä linkistä lahjoitukseen](https://www.paypal.com/donate/?hosted_button_id=5SZTBHGG589J8)
-#
-
 <b><font size="8">Lataa paketti:</font></b> [Ruutu-lataaja](https://github.com/untoor/Ruutu-lataaja/releases)
 #
 Huomioitavaa:  
 **EDIT 2.3.2020!:** Ruutu+ -videoita saa ladattua ainoastaan voimassa olevan Ruutu+ -tilauksen avulla.   
 **EDIT 19.1.2023:** Suplan podcastit eivät ole toimineet muutamaan kuukauteen johtuen osoitemuutoksista.
-
 Pienet asennusohjeet:
 
 - Kun olet ladannut paketin, pura ja siirrä zip-kansion sisältö (Ruutu-kansio) kokonaisuudessaan käyttäjänimesi alle, eli "C:\Users\Käyttäjänimi\ ",
