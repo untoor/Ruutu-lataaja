@@ -4,6 +4,11 @@ HUOM!: Jos lataus j‰‰ jumiin tai keskeytyy, k‰ynnist‰ uudelleen jolloinka pit‰is
 
 Muutosloki:
 
+1.4.8:
+- lis‰tty tumma teema
+- lis‰tty Tallenna-painike (Aloita lataus muistaa jatkossa asetukset jokaisesta palvelusta)
+- p‰ivitetty ohjelman ulkoasua
+
 1.4.6:
 - Ruutu ja Permanto toimivat taas normaalisti
 - p‰ivitetty ohjelman ulkoasua

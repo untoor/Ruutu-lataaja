@@ -4,6 +4,11 @@ NOTE!: If download stucks or failed, restart it and that should be okay. If won'
 
 Changelog:
 
+1.4.8:
+- added dark mode
+- added Save-button (Start downloading remembers saved settings from every service)
+- updated UI
+
 1.4.6:
 - Ruutu and Permanto are now working properly
 - updated program UI
